@@ -1,0 +1,28 @@
+.main-div-of-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    box-shadow:0px 2px #f8f8f8;
+}
+/* logo css */
+.main-div-of-header .logo{
+    padding: 12px 0px 0px 0px;
+}
+/* main div of text and imgs */
+.main-div-of-header .text-and-icon{
+    display: flex;
+} 
+/* heading */
+.main-div-of-header .text-and-icon h6{
+    color:#767573;
+    font-size: 14px;
+}
+/* user-img css */
+.main-div-of-header .text-and-icon .user-img img{
+    width: 45px;
+    padding: 20px 10px 0px 20px;
+    height: 45px;
+}
+.main-div-of-header .text-and-icon .downward-arrow{
+    padding: 35px 10px 0px 10px;
+}

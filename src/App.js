@@ -1,10 +1,11 @@
 import React from 'react'
-import Dashboard from './components/dashboard/dashboard'
+import Header from './components/header/header'
+import './assets/style/style.css'
 
 export default()=>{
   return(
     <>
-      <Dashboard/>
+      <Header/>
     </>
   );
 }

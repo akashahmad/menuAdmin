@@ -1,3 +1,9 @@
+@import'./font-size.css';
+@import'./common.css';
+@import'./colors.css';
+
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
