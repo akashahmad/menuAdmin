@@ -1,5 +1,8 @@
 @import'./common.css';
 @import'./colors.css';
+@import'./table.css';
+@import'./s.css';
+@import'./a.css';
 
 body{
     font-family: 'Open Sans', sans-serif;

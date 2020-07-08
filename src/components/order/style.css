@@ -1,0 +1,52 @@
+.main-div-of-orders{
+    background-color: #f8f8f8;
+    padding: 20px 30px 10px 30px;
+}
+.main-div-of-orders .main-div-of-filters{
+    margin: 0px 10px 30px 10px;
+    padding: 25px 0px 25px 0px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+}
+
+.main-div-of-orders .main-div-of-filters ul{ 
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 8px 20px 0px 20px;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.main-div-of-orders .main-div-of-filters ul li{
+    color:#767573;
+    font-weight:600;
+    padding: 0px 0px 0px 10px;
+}
+.main-div-of-orders .main-div-of-filters .inside-div-of-filters{
+    display: flex;
+}
+.main-div-of-orders .main-div-of-filters .inside-div-of-filters .date-time-picker{
+    width: 20%;
+    padding: 0px 0px 0px 30px;
+}
+.main-div-of-orders .main-div-of-filters .inside-div-of-filters .search-data{
+    display: flex;
+    justify-content:flex-end;
+    width: 20%;
+}
+.main-div-of-orders .main-div-of-filters .inside-div-of-filters .search-data input{
+    width: 200px;
+    padding: 0px 0px 0px 5px;
+    font-size: 16px;
+}
+.main-div-of-orders .main-div-of-filters .inside-div-of-filters .search-data img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    padding: 12px 5px 0px 0px;
+}
+.main-div-of-orders .main-div-of-filters .inside-div-of-filters .date-time-picker .react-datetime-picker__wrapper {
+    padding: 5px 0px 5px 0px;
+}

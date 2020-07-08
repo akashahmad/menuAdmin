@@ -1,10 +1,12 @@
 .dashboard-main{
     background-color: #f8f8f8;
 }
+.dashboard-main .main-div-for-padding{
+    padding: 30px;
+}
 .dashboard-main .dashboard-inner{
     display: flex;
     justify-content: space-evenly;
-    padding: 30px;
 }
 .dashboard-main .dashboard-inner .card{
     margin: 0px 10px;
@@ -24,4 +26,10 @@
 .dashboard-main .dashboard-inner .card span{
     color:#767573;
     font-size: 40px;
+}
+/* heading css after boxes */
+.dashboard-main .heading-orders h3{
+    padding: 20px 0px 0px 8px;
+    color: #767573;
+    font-size: 24px;
 }

@@ -1,0 +1,93 @@
+.main-div-of-table{
+    padding: 0px 10px 0px 10px;
+}
+/* heading section of table css starts from here*/
+.main-div-of-table .heading-section-of-table{
+    display: flex;
+    justify-content: space-between;
+}
+.main-div-of-table .heading-section-of-table ul{
+    list-style: none;
+    padding: 0px 0px 0px 17px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-div-of-table .heading-section-of-table .img-name{
+    display: flex;
+    flex: 1;
+}
+.main-div-of-table .heading-section-of-table .img-name img{
+    padding: 5px 0px 0px 0px;
+}
+.main-div-of-table .heading-section-of-table .img-name span{
+    padding: 0px 0px 0px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* second one list of data inside heading with flex 3 */
+.main-div-of-table .heading-section-of-table .img-ordered-heading{
+    display: flex;
+    flex: 3;
+}
+.main-div-of-table .heading-section-of-table .img-ordered-heading span{
+    padding: 0px 0px 0px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* heading section of table css ends here*/
+/* body section starts from here */
+.main-div-of-table .body-section-of-table{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 6px;
+    border: solid 1px #dad8d5;
+    background-color: #ffffff;
+    margin: 5px 0px 5px 0px;
+}
+.main-div-of-table .body-section-of-table ul{
+    list-style: none;
+    padding: 0px 0px 0px 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main-div-of-table .body-section-of-table .img-name{
+    display: flex;
+    flex: 1;
+}
+.main-div-of-table .body-section-of-table .img-name img{
+    padding: 5px 0px 0px 0px;
+}
+.main-div-of-table .body-section-of-table .img-name span{
+    padding: 0px 0px 0px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* second one list of data inside heading with flex 3 */
+.main-div-of-table .body-section-of-table .img-ordered-heading{
+    display: flex;
+    flex: 3;
+}
+.main-div-of-table .body-section-of-table .img-ordered-heading span{
+    padding: 0px 0px 0px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* circles with different colors */
+.main-div-of-table .body-section-of-table .img-name .dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: red;
+    margin: 5px 0px 0px 5px;
+}
+/* button css  */
+.main-div-of-table .body-section-of-table .img-name .button-generate{
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    background-color: #f14536;
+    color: #ffffff;
+}
