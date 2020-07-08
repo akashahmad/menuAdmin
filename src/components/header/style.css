@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 10px 0px 30px;
-    box-shadow:0px 2px #f8f8f8;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
 }
 /* logo css */
 .main-div-of-header .logo{

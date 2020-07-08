@@ -13,7 +13,7 @@ export default () => {
                     <img src={Logo} alt="logo" />
                 </div>
                 {/* text , user-img and icon */}
-                <div className="text-and-icon f-s-14 fnt-family-openSans">
+                <div className="text-and-icon fnt-family-openSans">
                     <div>
                         <h6>Hello! John Doe</h6>
                     </div>
