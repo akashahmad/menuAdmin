@@ -7,7 +7,8 @@
     justify-content: space-evenly;
 }
 .navbar-main .container-navbar .first-block{
-    width: 170px;
+    margin: 0px 10px;
+    flex: 1;
     display: flex;
     padding: 10px 0px 10px 0px;
     align-items: center;

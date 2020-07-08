@@ -1,3 +1,27 @@
 .dashboard-main{
-    
+    background-color: #f8f8f8;
+}
+.dashboard-main .dashboard-inner{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.dashboard-main .dashboard-inner .card{
+    margin: 0px 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
+    flex: 1;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 35px 0px 35px 0px;
+}
+.dashboard-main .dashboard-inner .card p{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #212120;
+}
+.dashboard-main .dashboard-inner .card span{
+    color:#767573;
+    font-size: 40px;
 }
