@@ -2,7 +2,7 @@
     background-color: #f8f8f8;
 }
 .navbar-main .container-navbar {
-    padding: 40px;
+    padding: 30px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -17,7 +17,11 @@
     background-color: #ffffff;
     border-radius: 4px;
     font-size: 16px;
+    font-weight: 600;
 }
 .navbar-main .container-navbar .first-block .image-first-block{
     margin-right: 12px;
+}
+.navbar-main .container-navbar .first-block .image-first-block .icons{
+    padding-top: 5px;
 }
