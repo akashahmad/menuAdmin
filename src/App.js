@@ -1,11 +1,12 @@
 import React from 'react'
 import './assets/style/style.css'
-// import Dashboard from './container/orders/index'
-import Orders from './container/orders/index';
+import Dashboard from './components/addNewCategory/addNewCategory'
+// import Orders from './container/orders/index';
 export default()=>{
   return(
     <>
-      <Orders/>
+      {/* <Orders/> */}
+      <Dashboard/>
     </>
   );
 }
