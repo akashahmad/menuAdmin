@@ -36,7 +36,7 @@ export default () => {
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
                             </p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans ">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
@@ -46,7 +46,7 @@ export default () => {
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
                             </p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans ">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
@@ -56,7 +56,7 @@ export default () => {
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
                             </p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans ">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
@@ -66,7 +66,7 @@ export default () => {
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
                             </p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans ">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
@@ -76,7 +76,7 @@ export default () => {
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal  f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
                             </p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans ">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
@@ -86,7 +86,7 @@ export default () => {
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
                             </p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
@@ -96,7 +96,7 @@ export default () => {
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
                             </p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
@@ -105,7 +105,7 @@ export default () => {
                             <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…</p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans ">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
@@ -115,7 +115,7 @@ export default () => {
                             <p className="wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
                             </p>
-                            <p className="wide-card-heading f-fm-OpenSans margin-0">$ 50.00</p>
+                            <p className="wide-card-heading f-fm-OpenSans">$ 50.00</p>
                         </div>
                     </div>
                 </div>
