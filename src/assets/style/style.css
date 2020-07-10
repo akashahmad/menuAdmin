@@ -5,6 +5,36 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+/*font-family*/
+.f-fm-OpenSans {
+    font-family: OpenSans;
+}
+/**/
+.margin-top-10{
+    margin-top: 10px;
+}
+.margin-0{
+    margin: 0;
+}
+.f-w-nomal{
+    font-weight: normal;
+}
+.f-w-str-normal{
+    font-stretch: normal;
+}
+.f-sty-normal{
+    font-style: normal;
+}
+.line-h-normal{
+    line-height: normal;
+}
+.letter-spc-normal{
+    letter-spacing: normal;
+}
+.f-s-16{
+    font-size: 16px;
 }
