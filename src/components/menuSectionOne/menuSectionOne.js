@@ -1,6 +1,3 @@
-/**
- * Created by Hajira Razzaq on 7/10/2020.
- */
 import React, {useState}from 'react'
 import './style.css'
 //import images
@@ -10,7 +7,7 @@ import DropdownArrow from '../../assets/images/white-down-arrow.png'
 export default () => {
     const [dropDownMenu, setDropDownMenu] = useState(false);
     return (
-        <div className="container-fluid">
+        <div className="container-fluid menu-section-one">
             <div className="menu-container-menu-bar">
                 {/*menu list*/}
                 <div className="menu-list-block">

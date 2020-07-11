@@ -35,6 +35,14 @@ body{
 .letter-spc-normal{
     letter-spacing: normal;
 }
+/*font-size*/
 .f-s-16{
     font-size: 16px;
+}
+.f-s-24{
+    font-size: 24px;
+}
+/*font-weight*/
+.f-w-600{
+    font-weight: 600;
 }

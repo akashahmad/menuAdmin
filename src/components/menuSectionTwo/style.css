@@ -1,8 +1,8 @@
 .menu-container-main-menu{
-display: flex;
-    margin: 30px;
+    display: flex;
+    margin: 15px 30px;
 }
-.categories-block{
+.menu-container-main-menu .categories-block{
     margin: 20px 10px;
     cursor: pointer;
     width: 171px;
@@ -15,7 +15,7 @@ display: flex;
     border-radius: 4px;
     font-weight: 600;
 }
-.categories-wide-block{
+.menu-container-main-menu .categories-wide-block{
     margin: auto;
     margin-top: 20px;
     width: 340px;
@@ -24,24 +24,24 @@ display: flex;
     background-color: #ffffff;
     display: flex;
 }
-.All-categories-div{
+.menu-container-main-menu .All-categories-div{
     width:15%;
 }
-.categories-div-two{
+.menu-container-main-menu .categories-div-two{
     display: flex;
     flex-wrap: wrap;
 }
-.wide-card-image{
+.menu-container-main-menu .wide-card-image{
     background-size: contain;
     width: 150px;
     margin: 10px;
     background-repeat: no-repeat;
 }
-.wide-card-description{
+.menu-container-main-menu .wide-card-description{
     font-size: 14px;
     color: #767573;
 }
-.wide-card-heading{
+.menu-container-main-menu .wide-card-heading{
     font-size: 14px;
     font-weight: 600;
     font-stretch: normal;

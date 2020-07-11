@@ -1,7 +1,4 @@
-/**
- * Created by Hajira Razzaq on 7/10/2020.
- */
-import React, {useState}from 'react'
+import React from 'react'
 import './style.css'
 //import images
 import MenuImage from '../../assets/images/menuImg.png'

@@ -124,6 +124,32 @@ export default () => {
                         </ul>
                     </div>
                     <div className="body-section-of-table">
+                        <ul>
+                            <div className="img-name">
+                                <li><span>Table 1</span></li>
+                            </div>
+                            <div className="img-ordered-heading">
+                                <li><span>Creamy Tomato Pasta,Blueberry Angel Dessert</span></li>
+                            </div>
+                            <div className="img-name">
+                                <li><span>06/05/2020</span></li>
+                            </div>
+                            <div className="img-name">
+                                <li><span>8:30 PM</span></li>
+                            </div>
+                            <div className="img-name">
+                                <li><div className="dot"></div></li>
+                                <li><span>Served</span></li>
+                            </div>
+                            <div className="img-name">
+                                <li><span>$ 100.00</span></li>
+                            </div>
+                            <div className="img-name">
+                                <li><span className="button-generate">Generate Bill</span></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div className="body-section-of-table">
                         {/*headings*/}
                         <ul>
                             <div className="img-name">

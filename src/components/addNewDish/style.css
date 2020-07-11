@@ -1,0 +1,14 @@
+.addNewDish-container-head{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 40px 0 40px;
+}
+.addNewDish-container-center{
+    width:73%;
+}
+.addNewDish-container-right{
+    display: flex;
+}
+.addNewDish-container-left{
+    line-height: 1.25;
+}

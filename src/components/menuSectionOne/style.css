@@ -46,7 +46,7 @@
     margin-left: 13px;
     margin-top: 18.5px;
     width: 218px;
-    height: 40px;
+    height: 43px;
     border-radius: 4px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
     background-color: #767573;
@@ -81,6 +81,7 @@
 }
 .Action-heading-icon{
     display: flex;
+    padding: 2px 0;
 }
 .menu-dropdown-icon{
     cursor: pointer;
