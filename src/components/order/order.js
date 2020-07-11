@@ -1,10 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import DownwardArrow from '../../assets/images/dropdown-arrow.png'
 import './style.css'
-import DateTimePicker from 'react-datetime-picker';
+// import DateTimePicker from 'react-datetime-picker';
+import DatePicker from 'react-date-picker';
 import Searchimage from '../../assets/images/search.png'
 
 export default () => {
+    //date picker
+    const [date, setDate] = useState(new Date());
+    const dateHandler = (event) => {
+        setDate(event)
+    }
+    console.log("date", date);
     return (
         <div className="container-fluid">
             <div className="container main-div-of-orders">
@@ -21,12 +28,16 @@ export default () => {
                         </ul>
                         <div className="search-data">
                             <input placeholder="Search..."/>
-                            <img src={Searchimage} alt="search-icon" />
+                            <img src={Searchimage} alt="search-icon"/>
                         </div>
-                        <div className="date-time-picker">
-                            <DateTimePicker
-                                // onChange={this.onChange}
-                                // value={this.state.date}
+                        <div className="">
+                            {/*<DateTimePicker*/}
+                            {/*// onChange={this.onChange}*/}
+                            {/*// value={this.state.date}*/}
+                            {/*/>*/}
+                            <DatePicker
+                                onChange={(event) => dateHandler(event)}
+                                value={date}
                             />
                         </div>
                     </div>
@@ -38,31 +49,31 @@ export default () => {
                         {/*headings*/}
                         <ul>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img src={DownwardArrow} alt="downward-arrow"/></li>
                                 <li><span>Table #</span></li>
                             </div>
                             <div className="img-ordered-heading">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img src={DownwardArrow} alt="downward-arrow"/></li>
                                 <li><span>Ordered Menu</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img src={DownwardArrow} alt="downward-arrow"/></li>
                                 <li><span>Date</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img src={DownwardArrow} alt="downward-arrow"/></li>
                                 <li><span>Time</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img src={DownwardArrow} alt="downward-arrow"/></li>
                                 <li><span>Order Status</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img src={DownwardArrow} alt="downward-arrow"/></li>
                                 <li><span>Bill Amount</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img src={DownwardArrow} alt="downward-arrow"/></li>
                                 <li><span>Action</span></li>
                             </div>
                         </ul>
@@ -84,7 +95,9 @@ export default () => {
                                 <li><span>8:30 PM</span></li>
                             </div>
                             <div className="img-name">
-                                <li><div className="dot"></div></li>
+                                <li>
+                                    <div className="dot"></div>
+                                </li>
                                 <li><span>Served</span></li>
                             </div>
                             <div className="img-name">
@@ -112,7 +125,9 @@ export default () => {
                                 <li><span>8:30 PM</span></li>
                             </div>
                             <div className="img-name">
-                                <li><div className="dot"></div></li>
+                                <li>
+                                    <div className="dot"></div>
+                                </li>
                                 <li><span>Served</span></li>
                             </div>
                             <div className="img-name">
@@ -138,7 +153,9 @@ export default () => {
                                 <li><span>8:30 PM</span></li>
                             </div>
                             <div className="img-name">
-                                <li><div className="dot"></div></li>
+                                <li>
+                                    <div className="dot"></div>
+                                </li>
                                 <li><span>Served</span></li>
                             </div>
                             <div className="img-name">
@@ -165,7 +182,9 @@ export default () => {
                                 <li><span>8:30 PM</span></li>
                             </div>
                             <div className="img-name">
-                                <li><div className="dot"></div></li>
+                                <li>
+                                    <div className="dot"></div>
+                                </li>
                                 <li><span>Served</span></li>
                             </div>
                             <div className="img-name">

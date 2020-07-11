@@ -2,7 +2,10 @@ import React from 'react'
 import TickImage from '../../assets/images/tick.png'
 import CancelImage from '../../assets/images/cancel.png'
 
-export default () => {
+export default (props) => {
+    let{
+        setAddNewMenuPopUp
+    }=props;
     return (
         <div className="container-fluid">
             <div className="container main-div-of-add-new-menu">
@@ -13,8 +16,8 @@ export default () => {
                         <p>New menu has been created successfully.</p>
                     </div>
                     {/* cancel img */}
-                    <div className="cross-img-div">
-                        <img src={CancelImage} alt="cancel-img" />
+                    <div className="cross-img-div" onClick={()=>setAddNewMenuPopUp(false)}>
+                        <img src={CancelImage} alt="cancel-img"  />
                     </div>
                 </div>
                 {/* popup for add new menu */}
@@ -23,7 +26,7 @@ export default () => {
                         <div className="inside-div-of-popup">
                             {/* cancel-img */}
                             <div className="cancel-img-div-inside-popup">
-                                <img src={CancelImage} alt="cancel-img" />
+                                <img src={CancelImage} alt="cancel-img" onClick={()=>  setAddNewMenuPopUp(false) }/>
                             </div>
                             <div className="heading-paragraph-input-label-div">
                                 {/* headoing */}

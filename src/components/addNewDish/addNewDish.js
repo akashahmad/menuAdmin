@@ -1,12 +1,7 @@
 import React from 'react'
 //import components
 import Togglebtn from '../commonComponent/toggleBtn/toggleBtn'
-
 import './style.css'
-//import images
-// import Searchimage from '../../assets/images/search.png'
-// import UpwardArrow from '../../assets/images/white-upward-arrow.png'
-// import DropdownArrow from '../../assets/images/white-down-arrow.png'
 export default () => {
     return (
         <div className="container-fluid addNewDish-section-one">

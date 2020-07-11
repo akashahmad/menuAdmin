@@ -1,4 +1,4 @@
-.switch {
+.common-toggle-btn .switch {
     margin: 0 0 0 25px;
     position: relative;
     display: inline-block;
@@ -6,13 +6,13 @@
     height: 34px;
 }
 
-.switch input {
+.common-toggle-btn .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
-.slider {
+.common-toggle-btn .slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -24,7 +24,7 @@
     transition: .4s;
 }
 
-.slider:before {
+.common-toggle-btn .slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -35,20 +35,20 @@
     -webkit-transition: .4s;
     transition: .4s;
 }
-.slider:after {
+.common-toggle-btn .slider:after {
 
 }
 
-input:checked + .slider {
+.common-toggle-btn input:checked + .slider {
     background-color: white;
 }
 
-input:focus + .slider {
+.common-toggle-btn input:focus + .slider {
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
     background-color: #ffffff;
 }
 
-input:checked + .slider:before {
+.common-toggle-btn input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
@@ -56,10 +56,10 @@ input:checked + .slider:before {
 }
 
 /* Rounded sliders */
-.slider.round {
+.common-toggle-btn .slider.round {
     border-radius: 34px;
 }
 
-.slider.round:before {
+.common-toggle-btn .slider.round:before {
     border-radius: 50%;
 }

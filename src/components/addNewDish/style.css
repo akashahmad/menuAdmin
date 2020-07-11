@@ -1,7 +1,9 @@
+.addNewDish-section-one{
+    margin: 30px 40px;
+}
 .addNewDish-container-head{
     display: flex;
-    justify-content: space-around;
-    margin: 0 40px 0 40px;
+    justify-content: space-between;
 }
 .addNewDish-container-center{
     width:73%;

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/header/header'
 import Navbar from '../../components/navbar/navbar'
 import SectionOne from '../../components/addNewDish/addNewDish'
-// import SectionTwo from '../../components/menuSectionTwo/menuSectionTwo'
+import Form from '../../components/addNewDishForm/addNewDishForm'
 
 export default () => {
     return (
@@ -10,6 +10,7 @@ export default () => {
             <Header />
             <Navbar />
             <SectionOne/>
+            <Form/>
         </>
     );
 }

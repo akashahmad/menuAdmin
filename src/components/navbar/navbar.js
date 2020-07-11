@@ -13,7 +13,7 @@ const NavBar = (props) => {
     return (
         <div className="container-fluid navbar-main">
             <div className="container-navbar">
-                <div className="first-block" style={{cursor: "pointer"}}
+                <div className="first-block cursor-pointer"
                      onClick={() => history.push("/")}
                 >
                     <div className="image-first-block">
@@ -21,39 +21,39 @@ const NavBar = (props) => {
                     </div>
                     <div>Dashboard</div>
                 </div>
-                <div className="first-block" style={{cursor: "pointer"}}
+                <div className="first-block cursor-pointer"
                      onClick={() => history.push("/orders")}>
                     <div className="image-first-block">
                         <img className="icons" src={OrderImage} alt="not found"/>
                     </div>
                     <div>Orders</div>
                 </div>
-                <div className="first-block" style={{cursor: "pointer"}}
+                <div className="first-block cursor-pointer"
                      onClick={() => history.push("/menu")}>
                     <div className="image-first-block">
                         <img className="icons" src={ManuImage} alt="not found"/>
                     </div>
                     <div>Menu</div>
                 </div>
-                <div className="first-block">
+                <div className="first-block cursor-pointer">
                     <div className="image-first-block">
                         <img className="icons" src={SideManuImage} alt="not found"/>
                     </div>
                     <div>Side Menu</div>
                 </div>
-                <div className="first-block">
+                <div className="first-block cursor-pointer">
                     <div className="image-first-block">
                         <img className="icons" src={ProfileImage} alt="not found"/>
                     </div>
                     <div>Profile</div>
                 </div>
-                <div className="first-block">
+                <div className="first-block cursor-pointer">
                     <div className="image-first-block">
                         <img className="icons" src={SaleImage} alt="not found"/>
                     </div>
                     <div>Sales</div>
                 </div>
-                <div className="first-block">
+                <div className="first-block cursor-pointer">
                     <div className="image-first-block">
                         <img className="icons" src={SettingImage} alt="not found"/>
                     </div>
