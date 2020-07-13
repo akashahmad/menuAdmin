@@ -1,0 +1,77 @@
+.common-button {
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px 10px 10px 0px;
+    border: none;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #767573;
+    text-align: center;
+    color: #ffffff;
+}
+
+button:active {
+    box-shadow: 0 2px 8px 0 rgba(241, 69, 54, 0.59);
+    background-color: #f14536;
+}
+
+.small-btn {
+    width: 142px;
+}
+
+.large-btn {
+    width: 177px;
+}
+
+/* search field styling*/
+.search-main-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-search-box {
+    padding-left: 10px;
+    margin-top: 18.5px;
+    width: 252px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #dad8d5;
+    background-color: #ffffff;
+}
+
+.menu-search-icon {
+    position: absolute;
+    margin: 35px 10px 10px -5px;
+}
+
+.menu-search-action {
+    display: flex;
+}
+/*wide card styling*/
+.categories-wide-block{
+    margin: auto;
+    margin-top: 20px;
+    width: 340px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    display: flex;
+}
+.wide-card-image{
+    background-size: contain;
+    width: 180px;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+.wide-card-description{
+    font-size: 14px;
+    color: #767573;
+}
+.wide-card-heading{
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212120;
+}

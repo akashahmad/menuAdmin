@@ -1,9 +1,52 @@
+/*------ ADDED CSS ---------*/
+.toggle-main-div .on {
+    display: none;
+}
+
+.toggle-main-div .on {
+    color: #767573;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 36%;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
+
+.toggle-main-div .off {
+    color: #767573;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 60%;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
+
+.toggle-main-div input:checked + .slider .on {
+    display: block;
+}
+
+.toggle-main-div input:checked + .slider .off {
+    display: none;
+}
+
+/*--------- END --------*/
+
+/* Rounded sliders */
+.toggle-main-div .slider.round {
+    border-radius: 34px;
+}
+
+.toggle-main-div .slider.round:before {
+    border-radius: 50%;
+}
+
 .common-toggle-btn .switch {
-    margin: 0 0 0 25px;
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 87px;
+    height: 40px;
 }
 
 .common-toggle-btn .switch input {
@@ -27,14 +70,15 @@
 .common-toggle-btn .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 30px;
+    width: 30px;
     left: 4px;
     bottom: 4px;
     background-color: gray;
     -webkit-transition: .4s;
     transition: .4s;
 }
+
 .common-toggle-btn .slider:after {
 
 }
@@ -49,9 +93,9 @@
 }
 
 .common-toggle-btn input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    transform: translateX(50px);
     background-color: #f14536;
 }
 

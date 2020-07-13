@@ -2,7 +2,10 @@
 @import'./colors.css';
 @import'./table.css';
 @import'./addCategory-and-addMenu.css';
-
+@import'./togglebtn.css';
+@import'./select-field.css';
+@import'./custom-check-box.css';
+@import'./common-button.css';
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -11,20 +14,39 @@ body{
 }
 /*font-family*/
 .f-fm-OpenSans {
-    font-family: OpenSans;
+    font-family: 'Open Sans', sans-serif;
 }
 /**/
+.m-b-10{
+    margin-bottom: 10px;
+}
+.p-r-10{
+    padding-right: 10px;
+}
 .margin-top-10{
     margin-top: 10px;
 }
+.margin-left-10{
+    margin-left: 10px;
+}
+
 .margin-top-20{
     margin-top: 20px;
+}
+.margin-top-bottom-30{
+    margin: 30px 0 30px 0;
 }
 .margin-top-50{
     margin-top: 50px;
 }
 .margin-0{
     margin: 0;
+}
+.p-0{
+    padding: 0;
+}
+.padding-10{
+    padding: 10px;
 }
 .f-w-nomal{
     font-weight: normal;
@@ -45,6 +67,9 @@ body{
 .f-s-16{
     font-size: 16px;
 }
+.f-s-14{
+    font-size: 14px;
+}
 .f-s-24{
     font-size: 24px;
 }
@@ -54,4 +79,11 @@ body{
 }
 .cursor-pointer{
     cursor: pointer;
+}
+.d-flex{
+    display: flex;
+}
+.medium-btn{
+    height: 40px;
+    width: 130px;
 }

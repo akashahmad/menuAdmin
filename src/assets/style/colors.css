@@ -13,6 +13,12 @@
 .heading-clr{
     color: #212120;
 }
+.text-clr-light-gray{
+    color: #767573;
+}
+.border-color-orange{
+    border: solid 1px #f14536 !important;
+}
 /*.placeholder-color{*/
     /*color: #767573;*/
 /*}*/
