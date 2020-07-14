@@ -20,8 +20,14 @@ body{
 .m-b-10{
     margin-bottom: 10px;
 }
+.m-r-20{
+    margin-right: 20px;
+}
 .p-r-10{
     padding-right: 10px;
+}
+.p-t-10{
+    padding-top: 10px;
 }
 .margin-top-10{
     margin-top: 10px;
@@ -82,6 +88,9 @@ body{
 }
 .d-flex{
     display: flex;
+}
+.j-c-space-between{
+    justify-content: space-between;
 }
 .medium-btn{
     height: 40px;
