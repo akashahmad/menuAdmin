@@ -28,7 +28,7 @@ export default () => {
                 <div className="categories-div-two">
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -38,7 +38,7 @@ export default () => {
                     </div>
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans ">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -48,7 +48,7 @@ export default () => {
                     </div>
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans ">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -58,7 +58,7 @@ export default () => {
                     </div>
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -68,7 +68,7 @@ export default () => {
                     </div>
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10  f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal  f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -78,7 +78,7 @@ export default () => {
                     </div>
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -88,7 +88,7 @@ export default () => {
                     </div>
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -98,16 +98,27 @@ export default () => {
                     </div>
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
-                                Pink pasta! Spaghetti tossed with a creamy tomato…</p>
-                            <p className="wide-card-heading f-fm-OpenSans ">$ 50.00</p>
+                                Pink pasta! Spaghetti tossed with a creamy tomato…
+                            </p>
+                            <p className="wide-card-heading f-fm-OpenSans">$ 50.00</p>
                         </div>
                     </div>
                     <div className="categories-wide-block bg-clr-white">
                         <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                        <div className="margin-0">
+                        <div className="margin-0 wide-card-sibling-div">
+                            <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
+                            <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
+                                Pink pasta! Spaghetti tossed with a creamy tomato…
+                            </p>
+                            <p className="wide-card-heading f-fm-OpenSans">$ 50.00</p>
+                        </div>
+                    </div>
+                    <div className="categories-wide-block bg-clr-white">
+                        <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
+                        <div className="margin-0 wide-card-sibling-div">
                             <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                             <p className="wide-card-description p-r-10 f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                                 Pink pasta! Spaghetti tossed with a creamy tomato…

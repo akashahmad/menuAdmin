@@ -1,5 +1,5 @@
 .side-dish-btn{
-    height: 40px;
+    height: 44px;
     padding: 0px 60px;
     margin-left: 10px;
     margin-right: 0px;
@@ -10,10 +10,11 @@
 .side-dish-cards{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 0 0 30px;
 }
 .side-dish-block-width{
-    width: 382px;
-    margin: 10px 25px 10px 38px;
+    /*width: 28%;*/
+    /*margin: 10px 30px 10px 39px;*/
 }
 .edit-btn-icon{
     width: 18px;

@@ -22,41 +22,41 @@ export default (props) => {
                 {/*starting fields*/}
                 <div
                     className="addNewDish-fields f-fm-OpenSans  f-s-16 f-w-600 f-sty-normal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
-                    <div className="f-fm-OpenSans  ">
+                    <div className="f-fm-OpenSans w-25  ">
                         <p className="heading-clr fields-label-margin">
                             Restaurant Name
                         </p>
                         <input className="input-fields bg-clr-white" type="text" placeholder="Text"/>
                     </div>
-                    <div>
+                    <div className=" w-25">
                         <p className="heading-clr fields-label-margin">Genre</p>
                         <input className="input-fields bg-clr-white" type="text" placeholder="Text"/>
                     </div>
-                    <div>
+                    <div className=" w-25">
                         <p className="heading-clr fields-label-margin">Owner Name</p>
                         <input className="input-fields bg-clr-white" type="text" placeholder="Text"/>
                     </div>
-                    <div>
+                    <div className=" w-25">
                         <p className="heading-clr fields-label-margin">Contact Number</p>
                         <input className="input-fields bg-clr-white" type="text" placeholder="$00.00"/>
                     </div>
                 </div>
                 <div
                     className="margin-top-20  addNewDish-fields f-fm-OpenSans  f-s-16 f-w-600 f-sty-normal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
-                    <div>
+                    <div className=" w-25">
                         <p className="heading-clr fields-label-margin">Email</p>
                         <input className="input-fields bg-clr-white" type="" placeholder="Text"/>
                     </div>
-                    <div>
+                    <div className=" w-25">
                         <p className="heading-clr fields-label-margin">Address</p>
                         <input className="input-fields bg-clr-white" type="" placeholder="Text"/>
                     </div>
 
-                    <div>
+                    <div className=" w-25">
                         <p className="heading-clr fields-label-margin">City</p>
                         <input className="input-fields bg-clr-white" type="" placeholder="Text"/>
                     </div>
-                    <div>
+                    <div className=" w-25">
                         <p className="heading-clr fields-label-margin">State</p>
                         <select >
                             <option className="select-option" value="">Select</option>
@@ -71,7 +71,7 @@ export default (props) => {
                             <span className="f-w-nomal text-clr-light-gray">(Optional)</span>
                         </p>
                         <textarea
-                            className="text-area-full-width text-area-fields bg-clr-white f-fm-OpenSans  f-s-16 f-w-nomal f-sty-normal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal"
+                            className="text-area-full-width text-area-fields "
                             type="" placeholder="Text"/>
                     </div>
                 </div>

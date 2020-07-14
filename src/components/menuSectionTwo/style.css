@@ -5,7 +5,7 @@
 .menu-container-main-menu .categories-block{
     margin: 20px 10px;
     cursor: pointer;
-    width: 171px;
+    width: auto;
     height: 50px;
     flex: 1 1;
     display: flex;
@@ -21,4 +21,5 @@
 .menu-container-main-menu .categories-div-two{
     display: flex;
     flex-wrap: wrap;
+    width: 85%;
 }

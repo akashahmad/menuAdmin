@@ -26,20 +26,19 @@ export default () => {
                             <li>Check Out</li>
                             <li>Cancelled</li>
                         </ul>
-                        <div className="search-data">
-                            <input placeholder="Search..."/>
-                            <img src={Searchimage} alt="search-icon"/>
+                        <div className="d-flex">
+                            <div className="search-data">
+                                <input placeholder="Search..."/>
+                                <img src={Searchimage} alt="search-icon"/>
+                            </div>
+                            <div className="">
+                                <DatePicker
+                                    onChange={(event) => dateHandler(event)}
+                                    value={date}
+                                />
+                            </div>
                         </div>
-                        <div className="">
-                            {/*<DateTimePicker*/}
-                            {/*// onChange={this.onChange}*/}
-                            {/*// value={this.state.date}*/}
-                            {/*/>*/}
-                            <DatePicker
-                                onChange={(event) => dateHandler(event)}
-                                value={date}
-                            />
-                        </div>
+
                     </div>
                 </div>
                 {/* table styling added in table.css file */}

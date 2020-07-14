@@ -19,7 +19,7 @@ button:active {
 }
 
 .large-btn {
-    width: 177px;
+    width: 14%;
 }
 
 /* search field styling*/
@@ -57,9 +57,12 @@ button:active {
 }
 .wide-card-image{
     background-size: contain;
-    width: 180px;
+    width: 38%;
     margin: 10px;
     background-repeat: no-repeat;
+}
+.wide-card-sibling-div{
+    width: 70%;
 }
 .wide-card-description{
     font-size: 14px;

@@ -17,6 +17,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /**/
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
+.w-100{
+    width: 100%;
+}
 .m-b-10{
     margin-bottom: 10px;
 }

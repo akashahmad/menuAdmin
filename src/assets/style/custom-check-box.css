@@ -1,3 +1,6 @@
+.checkbox-label-padding{
+    padding: 5px 0 0 10px;
+}
 .myinput[type="checkbox"]:before {
     position: relative;
     display: block;

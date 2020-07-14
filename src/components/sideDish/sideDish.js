@@ -27,8 +27,7 @@ export default (props) => {
                         <div className="menu-search-icon margin-top-20"><img src={Searchimage} alt="search-icon"/></div>
                     </div>
                     <button onClick={() => history.push("/add-new-side-dish")}
-                            className=" side-dish-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
-
+                            className="bg-clr-Orange side-dish-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
                         Add New Side Dish
                     </button>
                     <button
@@ -43,7 +42,7 @@ export default (props) => {
         <div className="container side-dish-cards">
             <div className="side-dish-block-width categories-wide-block bg-clr-white">
                 <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                <div className="margin-0">
+                <div className="margin-0 wide-card-sibling-div">
                     <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                     <p className="p-r-10 wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                         Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -57,7 +56,7 @@ export default (props) => {
             </div>
             <div className="side-dish-block-width categories-wide-block bg-clr-white">
                 <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                <div className="margin-0">
+                <div className="margin-0 wide-card-sibling-div">
                     <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                     <p className="p-r-10 wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                         Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -71,7 +70,7 @@ export default (props) => {
 
             <div className="side-dish-block-width categories-wide-block bg-clr-white">
                 <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                <div className="margin-0">
+                <div className="margin-0 wide-card-sibling-div">
                     <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                     <p className="p-r-10 wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                         Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -85,7 +84,7 @@ export default (props) => {
 
             <div className="side-dish-block-width categories-wide-block bg-clr-white">
                 <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                <div className="margin-0">
+                <div className="margin-0 wide-card-sibling-div">
                     <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                     <p className="p-r-10 wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                         Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -99,7 +98,7 @@ export default (props) => {
 
             <div className="side-dish-block-width categories-wide-block bg-clr-white">
                 <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                <div className="margin-0">
+                <div className="margin-0 wide-card-sibling-div">
                     <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                     <p className="p-r-10 wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                         Pink pasta! Spaghetti tossed with a creamy tomato…
@@ -113,7 +112,7 @@ export default (props) => {
 
             <div className="side-dish-block-width categories-wide-block bg-clr-white">
                 <div style={{backgroundImage: `url(${MenuImage})`}} className="wide-card-image"/>
-                <div className="margin-0">
+                <div className="margin-0 wide-card-sibling-div">
                     <p className="wide-card-heading f-fm-OpenSans">Creamy Tomato Pasta</p>
                     <p className="p-r-10 wide-card-description f-w-nomal f-sty-normal f-w-str-normal line-h-normal letter-spc-normal f-fm-OpenSans">
                         Pink pasta! Spaghetti tossed with a creamy tomato…

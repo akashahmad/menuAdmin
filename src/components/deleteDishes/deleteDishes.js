@@ -20,14 +20,14 @@ export default (props) => {
                 <div className="container delete-Dish-container">
                     <div
                         className="addNewDish-fields f-fm-OpenSans  f-s-16 f-w-600 f-sty-normal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
-                        <div className="f-fm-OpenSans  ">
+                        <div className="f-fm-OpenSans w-25 ">
                             <p className="heading-clr fields-label-margin">Select Menu</p>
                             <select >
                                 <option className="select-option" value="">Select</option>
                                 <option className="select-option" value="">A</option>
                             </select>
                         </div>
-                        <div>
+                        <div className="w-25">
                             <p className="heading-clr fields-label-margin">Select Category</p>
                             <select >
                                 <option className="select-option" value="">Select</option>
