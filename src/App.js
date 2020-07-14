@@ -10,6 +10,7 @@ import DeleteDish from './container/deleteDishes/index';
 import SideDish from './container/sideDish/index';
 import Profile from './container/profile/index';
 import Settings from './container/settings/index';
+import SalesReport from './container/saleReport/index';
 import {Switch, Route} from 'react-router-dom'
 
 export default() => {
@@ -24,6 +25,7 @@ export default() => {
             <Route path={"/add-new-side-dish"} component={AddNewSideDish}/>
             <Route path={"/profile"} component={Profile}/>
             <Route path={"/settings"} component={Settings}/>
+            <Route path={"/sales-report"} component={SalesReport}/>
             <Route path={"/"} component={Dashboard}/>
         </Switch>
     );

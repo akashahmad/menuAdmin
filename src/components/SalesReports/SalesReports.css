@@ -1,0 +1,26 @@
+.react-date-picker__wrapper{
+    height: 40px;
+    width: 190px;
+    margin: 10px;
+    border-radius: 4px;
+    border: solid 1px #dad8d5;
+    background-color: #ffffff;
+}
+.react-date-picker__clear-button{
+    display: none;
+}
+.sales-report-today-sales{
+    margin: 20px;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+}
+.today-sales-in-figure{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.13;
+}
+.today-sales-heading{
+
+}

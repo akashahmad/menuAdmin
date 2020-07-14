@@ -27,7 +27,7 @@ export default () => {
                             <li>Cancelled</li>
                         </ul>
                         <div className="d-flex">
-                            <div className="search-data">
+                            <div className="search-data search-data-height-setting">
                                 <input placeholder="Search..."/>
                                 <img src={Searchimage} alt="search-icon"/>
                             </div>

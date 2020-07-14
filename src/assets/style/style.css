@@ -63,6 +63,9 @@ body{
 .padding-10{
     padding: 10px;
 }
+.t-align-c{
+    text-align: center;
+}
 .f-w-nomal{
     font-weight: normal;
 }
