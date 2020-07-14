@@ -10,7 +10,7 @@
     display: none;
 }
 .sales-report-today-sales{
-    margin: 20px;
+    margin: 20px 0 20px 0;
     padding: 30px;
     border-radius: 6px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
@@ -23,4 +23,15 @@
 }
 .today-sales-heading{
 
+}
+.sales-report-table-head{
+    margin: 30px 0 0 0;
+}
+.table-head-down-arrow{
+    width: 10px;
+    height: 10px;
+}
+.paragraph-tab{
+    text-align: center;
+    width: 34%;
 }

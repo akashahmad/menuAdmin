@@ -3,8 +3,11 @@ import './SalesReports.css'
 //import components
 
 //import images
-import DatePicker from 'react-date-picker';
+import DownwardArrow from '../../assets/images/dropdown-arrow.png'
 import PrintIcon from '../../assets/images/print.png'
+
+import DatePicker from 'react-date-picker';
+
 export default (props) => {
     let {} = props;
     const [date, setDate] = useState(new Date());
@@ -35,7 +38,7 @@ export default (props) => {
                     </div>
                 </div>
                 <div className="d-flex w-100">
-                    <div className="w-50 sales-report-today-sales">
+                    <div className="w-45 sales-report-today-sales">
                         <div>
                             <div
                                 className="today-sales-in-figure f-fm-OpenSans t-align-c f-w-str-normal f-sty-normal letter-spc-normal text-clr-light-gray">
@@ -46,9 +49,11 @@ export default (props) => {
                                 Today’s Sales
                             </div>
                         </div>
+                    </div>
+                    <div className="w-10">
 
                     </div>
-                    <div className="w-50 sales-report-today-sales">
+                    <div className="w-45  sales-report-today-sales">
                         <div>
                             <div
                                 className="today-sales-in-figure f-fm-OpenSans t-align-c f-w-str-normal f-sty-normal letter-spc-normal text-clr-light-gray">
@@ -62,7 +67,88 @@ export default (props) => {
                     </div>
 
                 </div>
+                {/*table-head*/}
+                <div className="w-100 d-flex sales-report-table-head">
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal text-clr-light-gray">
+                        <p className="paragraph-tab">
+                            <img className="table-head-down-arrow" src={DownwardArrow} alt="downward-arrow"/>
+                            <span className="margin-left-10">  Table #</span>
+                        </p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal text-clr-light-gray">
+                        <p className="paragraph-tab">
+                            <img className="table-head-down-arrow" src={DownwardArrow} alt="downward-arrow"/>
+                            <span className="margin-left-10">Today’s Sales</span>
+                        </p>
 
+                    </div>
+                    <div
+                        className="w-33  d-flex f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal text-clr-light-gray">
+                        <p className="paragraph-tab">
+                            <img className="table-head-down-arrow" src={DownwardArrow} alt="downward-arrow"/>
+                            <span className="margin-left-10"> Total Sales</span>
+                        </p>
+                    </div>
+                </div>
+                {/*table row*/}
+                <div className=" container  row-with-white-bg m-b-10">
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> Table 1</p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> $100.00</p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> $100.00</p>
+                    </div>
+                </div>
+                <div className=" container  row-with-white-bg m-b-10">
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> Table 1</p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> $100.00</p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> $100.00</p>
+                    </div>
+                </div>
+                <div className=" container  row-with-white-bg m-b-10">
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> Table 1</p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> $100.00</p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> $100.00</p>
+                    </div>
+                </div>
+                <div className=" container  row-with-white-bg m-b-10">
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> Table 1</p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> $100.00</p>
+                    </div>
+                    <div
+                        className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                        <p className="paragraph-tab"> $100.00</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

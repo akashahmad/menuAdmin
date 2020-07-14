@@ -90,7 +90,7 @@ export default (props) => {
                 {/*del dish footer btn section*/}
                 <div className="d-flex ">
                     <button
-                        className="large-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
+                        className="bg-clr-Orange large-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
                         Delete
                     </button>
                     <button

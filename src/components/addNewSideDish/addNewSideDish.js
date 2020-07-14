@@ -51,7 +51,7 @@ export  default () => {
                 {/*buttons*/}
                 <div className=" margin-top-bottom-30 addNewDish-buttons">
                     <button
-                        className="large-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
+                        className="bg-clr-Orange large-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
                         Save
                     </button>
                     <button

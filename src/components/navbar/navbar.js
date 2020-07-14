@@ -48,7 +48,8 @@ const NavBar = (props) => {
                     </div>
                     <div>Profile</div>
                 </div>
-                <div className="first-block cursor-pointer">
+                <div className="first-block cursor-pointer"
+                     onClick={() => history.push("/sales-report")}>
                     <div className="image-first-block">
                         <img className="icons" src={SaleImage} alt="not found"/>
                     </div>
