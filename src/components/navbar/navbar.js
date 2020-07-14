@@ -41,7 +41,8 @@ const NavBar = (props) => {
                     </div>
                     <div>Side Dish</div>
                 </div>
-                <div className="first-block cursor-pointer">
+                <div className="first-block cursor-pointer"
+                     onClick={() => history.push("/profile")}>
                     <div className="image-first-block">
                         <img className="icons" src={ProfileImage} alt="not found"/>
                     </div>

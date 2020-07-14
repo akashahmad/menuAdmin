@@ -12,5 +12,12 @@
     flex-wrap: wrap;
 }
 .side-dish-block-width{
-    width:411px;
+    width: 382px;
+    margin: 10px 25px 10px 38px;
+}
+.edit-btn-icon{
+    width: 18px;
+    height: 18px;
+    padding: 13px;
+    float: right;
 }

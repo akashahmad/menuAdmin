@@ -24,7 +24,7 @@ export default (props) => {
                     </ul>
                 </div>
                 {/*search and action*/}
-                <div className="menu-search-action">
+                <div className="menu-search-action m-r-20">
                     <div className="search-main-div">
                         <input className="menu-search-box" type="text" placeholder="Search.."/>
                         <div className="menu-search-icon"><img src={Searchimage} alt="search-icon"/></div>

@@ -1,0 +1,21 @@
+.setting-container-head{
+    display: flex;
+    margin: 30px 40px 30px 40px;
+    justify-content: space-between;
+}
+.setting-wide-card-main-div{
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+}
+.setting-wide-card-inner-div{
+    width: 100%;
+}
+.setting-user-info{
+    padding-left:50px;
+}
+.setting-heading-span{
+    width:80px;
+}
+.setting-label-width{
+    width: 130px;
+}
