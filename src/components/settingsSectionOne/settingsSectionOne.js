@@ -38,13 +38,12 @@ export default (props) => {
                 </div>
                 <div className="d-flex">
                     <button
-                        className="small-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
+                        className="bg-clr-Orange small-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
                         Add User
                     </button>
                 </div>
             </div>
             {/*wide cards in settings*/}
-
             <div className="container side-dish-cards">
                 <div className="side-dish-block-width categories-wide-block bg-clr-white">
                     <div className="setting-wide-card-main-div">
@@ -61,17 +60,167 @@ export default (props) => {
 
                         </div>
                         <div className="">
-                            <div className="d-flex f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
                                 <div className="setting-label-width">Username</div>
                                 <div className="text-clr-light-gray ">Ali</div>
                             </div>
-                            <div className="d-flex f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
-                                <div className="">Contact No</div>
-                                <div className="text-clr-light-gray ">Ali</div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Contact No</div>
+                                <div className="text-clr-light-gray ">44 831 1234567</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Email</div>
+                                <div className="text-clr-light-gray ">test@gmail.com</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">
+                                    Admin Excess</div>
+                                <div className="text-clr-light-gray "></div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className="side-dish-block-width categories-wide-block bg-clr-white">
+                    <div className="setting-wide-card-main-div">
+                        <div className="setting-wide-card-inner-div d-flex j-c-space-between">
+                            <div>
+                                <p className="f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                    Name
+                                </p>
+                            </div>
+                            <div className="d-flex">
+                                <img className="edit-btn-icon cursor-pointer" src={EditIcon} alt="EditIcon"/>
+                                <img className="edit-btn-icon cursor-pointer" src={DelIcon} alt="del-Icon"/>
+                            </div>
+
+                        </div>
+                        <div className="">
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Username</div>
+                                <div className="text-clr-light-gray ">Ali</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Contact No</div>
+                                <div className="text-clr-light-gray ">44 831 1234567</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Email</div>
+                                <div className="text-clr-light-gray ">test@gmail.com</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">
+                                    Admin Excess</div>
+                                <div className="text-clr-light-gray "></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="side-dish-block-width categories-wide-block bg-clr-white">
+                    <div className="setting-wide-card-main-div">
+                        <div className="setting-wide-card-inner-div d-flex j-c-space-between">
+                            <div>
+                                <p className="f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                    Name
+                                </p>
+                            </div>
+                            <div className="d-flex">
+                                <img className="edit-btn-icon cursor-pointer" src={EditIcon} alt="EditIcon"/>
+                                <img className="edit-btn-icon cursor-pointer" src={DelIcon} alt="del-Icon"/>
+                            </div>
+
+                        </div>
+                        <div className="">
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Username</div>
+                                <div className="text-clr-light-gray ">Ali</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Contact No</div>
+                                <div className="text-clr-light-gray ">44 831 1234567</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Email</div>
+                                <div className="text-clr-light-gray ">test@gmail.com</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">
+                                    Admin Excess</div>
+                                <div className="text-clr-light-gray "></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="side-dish-block-width categories-wide-block bg-clr-white">
+                    <div className="setting-wide-card-main-div">
+                        <div className="setting-wide-card-inner-div d-flex j-c-space-between">
+                            <div>
+                                <p className="f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                    Name
+                                </p>
+                            </div>
+                            <div className="d-flex">
+                                <img className="edit-btn-icon cursor-pointer" src={EditIcon} alt="EditIcon"/>
+                                <img className="edit-btn-icon cursor-pointer" src={DelIcon} alt="del-Icon"/>
+                            </div>
+
+                        </div>
+                        <div className="">
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Username</div>
+                                <div className="text-clr-light-gray ">Ali</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Contact No</div>
+                                <div className="text-clr-light-gray ">44 831 1234567</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Email</div>
+                                <div className="text-clr-light-gray ">test@gmail.com</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">
+                                    Admin Excess</div>
+                                <div className="text-clr-light-gray "></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="side-dish-block-width categories-wide-block bg-clr-white">
+                    <div className="setting-wide-card-main-div">
+                        <div className="setting-wide-card-inner-div d-flex j-c-space-between">
+                            <div>
+                                <p className="f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                    Name
+                                </p>
+                            </div>
+                            <div className="d-flex">
+                                <img className="edit-btn-icon cursor-pointer" src={EditIcon} alt="EditIcon"/>
+                                <img className="edit-btn-icon cursor-pointer" src={DelIcon} alt="del-Icon"/>
+                            </div>
+
+                        </div>
+                        <div className="">
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Username</div>
+                                <div className="text-clr-light-gray ">Ali</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Contact No</div>
+                                <div className="text-clr-light-gray ">44 831 1234567</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">Email</div>
+                                <div className="text-clr-light-gray ">test@gmail.com</div>
+                            </div>
+                            <div className="d-flex m-b-10 f-fm-OpenSans f-s-14 f-w-n f-w-str-normal f-sty-normal line-h-normal letter-spc-normal heading-clr">
+                                <div className="setting-label-width">
+                                    Admin Excess</div>
+                                <div className="text-clr-light-gray "/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 

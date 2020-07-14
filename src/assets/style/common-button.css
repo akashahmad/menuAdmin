@@ -48,9 +48,8 @@ button:active {
 }
 /*wide card styling*/
 .categories-wide-block{
-    margin: auto;
-    margin-top: 20px;
-    width: 340px;
+    margin: 20px 12px 0px 12px;
+    width: 31%;
     border-radius: 4px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.09);
     background-color: #ffffff;

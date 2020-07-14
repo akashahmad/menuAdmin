@@ -25,7 +25,7 @@ export default () => {
                     {/* 4th card */}
                     <div className="card fnt-family-openSans">
                         <div><span>$3200.00</span></div>
-                        <div><p>Todays's Sales</p></div>
+                        <div><p>Today's Sales</p></div>
                     </div>
                 </div>
                 {/* heading */}
