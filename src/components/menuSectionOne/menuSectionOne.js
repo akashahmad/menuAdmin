@@ -50,9 +50,9 @@ export default (props) => {
                             <li onClick={()=>setAddNewMenuPopUp(true)} >Add New Menu</li>
                             <li onClick={()=>setAddNewCategoryPopUp(true)}>Add New Category</li>
                             <li onClick={() => history.push("/add-new-dish")} >Add New Dish</li>
-                            <li>Delete Menu</li>
-                            <li>Delete Category</li>
-                            <li >Delete Dish</li>
+                            <li onClick={() => history.push("/")}>Delete Menu</li>
+                            <li onClick={() => history.push("/")}>Delete Category</li>
+                            <li onClick={() => history.push("/delete-dishes")}>Delete Dish</li>
                         </div>
                     </div>
                 </div>

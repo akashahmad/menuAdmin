@@ -14,8 +14,7 @@ const NavBar = (props) => {
         <div className="container-fluid navbar-main">
             <div className="container-navbar">
                 <div className="first-block cursor-pointer"
-                     onClick={() => history.push("/")}
-                >
+                     onClick={() => history.push("/")}>
                     <div className="image-first-block">
                         <img className="icons" src={Image} alt="not found"/>
                     </div>
@@ -35,11 +34,12 @@ const NavBar = (props) => {
                     </div>
                     <div>Menu</div>
                 </div>
-                <div className="first-block cursor-pointer">
+                <div className="first-block cursor-pointer"
+                     onClick={() => history.push("/side-dish")}>
                     <div className="image-first-block">
                         <img className="icons" src={SideManuImage} alt="not found"/>
                     </div>
-                    <div>Side Menu</div>
+                    <div>Side Dish</div>
                 </div>
                 <div className="first-block cursor-pointer">
                     <div className="image-first-block">

@@ -1,0 +1,16 @@
+.side-dish-btn{
+    height: 40px;
+    padding: 0px 60px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.side-dish-search-box{
+    height: 37px;
+}
+.side-dish-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.side-dish-block-width{
+    width:411px;
+}

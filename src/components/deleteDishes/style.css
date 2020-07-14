@@ -1,0 +1,22 @@
+.delete-Dish-container {
+    margin-bottom: 20px;
+}
+
+.del-dish-main-div-of-right-btn {
+    display: flex;
+    margin-top: 28px;
+}
+.row-with-white-bg{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 6px;
+    border: solid 1px #dad8d5;
+    background-color: #ffffff;
+}
+.del-dish-check-box-label{
+    margin: 5px 10px 0px 30px;
+}
+.del-dish-main-div-of-checkbox{
+    padding-top: 7px;
+}
