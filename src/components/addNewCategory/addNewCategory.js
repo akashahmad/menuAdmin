@@ -3,21 +3,22 @@ import TickImage from '../../assets/images/tick.png'
 import CancelImage from '../../assets/images/cancel.png'
 
 export default (props) => {
-    let{
+    let {
         setAddNewCategoryPopUp
-    }=props;
+    } = props;
     return (
         <div className="container-fluid">
             <div className="container main-div-of-add-new-menu">
                 {/* header for conformation*/}
                 <div className="inside-main-div">
                     <div className="header-of-confirmation">
-                        <img src={TickImage} alt="tick-img" />
+                        <img src={TickImage} alt="tick-img"/>
                         <p>New menu has been created successfully.</p>
                     </div>
                     {/* cancel img */}
-                    <div className="cross-img-div">
-                        <img src={CancelImage} alt="cancel-img" onClick={()=>setAddNewCategoryPopUp(false)} />
+                    <div className="cross-img-div cursor-pointer">
+                        <img className="cursor-pointer" src={CancelImage} alt=" cancel-img"
+                             onClick={() => setAddNewCategoryPopUp(false)}/>
                     </div>
                 </div>
                 {/* popup for add new menu */}
@@ -26,37 +27,39 @@ export default (props) => {
                         <div className="inside-div-of-popup">
                             {/* cancel-img */}
                             <div className="cancel-img-div-inside-popup">
-                                <img src={CancelImage} alt="cancel-img" onClick={()=>setAddNewCategoryPopUp(false)}/>
+                                <img className="cursor-pointer" src={CancelImage} alt="cancel-img"
+                                     onClick={() => setAddNewCategoryPopUp(false)}
+                                />
                             </div>
                             <div className="heading-paragraph-input-label-div">
                                 {/* headoing */}
                                 <div className="heading">
-                                    <h5>Add New Menu</h5>
+                                    <h5>Add New Category</h5>
                                 </div>
                                 {/* paragraph */}
                                 <div className="paragprah">
-                                    <p>You can add multiple menues by clicking "Save and More " button</p>
+                                    <p>You can add multiple categoreis by clicking “Save & Add More” button.</p>
                                 </div>
                                 {/* label and input */}
                                 {/* inputs and label css inputs are defined in common css */}
                                 {/* 2 labels and inputs */}
                                 <div className="main-div-of-label-and-input-of-add-category-page">
-                                    <div>
+                                    <div className="w-50">
                                         <div>
-                                            <label>Menu</label>
+                                            <label>Select Menu</label>
                                         </div>
                                         <div>
-                                            <select className="add-category-input" placeholder="Text" >
+                                            <select className="add-category-input" placeholder="Text">
                                                 <option>Select</option>
                                             </select>
                                         </div>
                                     </div>
-                                    <div className="second-input">
+                                    <div className="w-50 second-input">
                                         <div>
-                                            <label>Menu</label>
+                                            <label>Category Title</label>
                                         </div>
                                         <div>
-                                            <input className="add-category-input" placeholder="Text" />
+                                            <input className="add-category-input" placeholder="Text"/>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +67,7 @@ export default (props) => {
                                 <div className="main-div-of-buttons">
                                     <div className="inside-div-of-btns btns-center">
                                         <span className="common-btn-of-popup color-red">Save & Add More</span>
-                                        <span className="common-btn-of-popup color-grey">Add Category to</span>
+                                        <span className="common-btn-of-popup color-grey">Add Dish To Category</span>
                                     </div>
                                 </div>
                             </div>

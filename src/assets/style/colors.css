@@ -19,6 +19,9 @@
 .border-color-orange{
     border: solid 1px #f14536 !important;
 }
+.text-clr-orange{
+    color: #f14536;
+}
 /*.placeholder-color{*/
     /*color: #767573;*/
 /*}*/

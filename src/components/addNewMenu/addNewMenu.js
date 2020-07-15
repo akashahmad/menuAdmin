@@ -17,7 +17,7 @@ export default (props) => {
                     </div>
                     {/* cancel img */}
                     <div className="cross-img-div" onClick={()=>setAddNewMenuPopUp(false)}>
-                        <img src={CancelImage} alt="cancel-img"  />
+                        <img className="cursor-pointer" src={CancelImage} alt="cancel-img"  />
                     </div>
                 </div>
                 {/* popup for add new menu */}
@@ -26,7 +26,7 @@ export default (props) => {
                         <div className="inside-div-of-popup">
                             {/* cancel-img */}
                             <div className="cancel-img-div-inside-popup">
-                                <img src={CancelImage} alt="cancel-img" onClick={()=>  setAddNewMenuPopUp(false) }/>
+                                <img className="cursor-pointer" src={CancelImage} alt="cancel-img" onClick={()=>  setAddNewMenuPopUp(false) }/>
                             </div>
                             <div className="heading-paragraph-input-label-div">
                                 {/* headoing */}
@@ -47,27 +47,6 @@ export default (props) => {
                                         <input className="add-menu-input" placeholder="Text" />
                                     </div>
                                 </div>
-                                {/* 2 inputs */}
-                                {/* <div className="main-div-of-label-and-input-of-add-category-page">
-                                    <div>
-                                        <div>
-                                            <label>Menu</label>
-                                        </div>
-                                        <div>
-                                            <select className="add-category-input" placeholder="Text" >
-                                                <option>Select</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div className="second-input">
-                                        <div>
-                                            <label>Menu</label>
-                                        </div>
-                                        <div>
-                                            <input className="add-category-input" placeholder="Text" />
-                                        </div>
-                                    </div>
-                                </div> */}
                                 {/* buttons */}
                                 <div className="main-div-of-buttons">
                                     <div className="inside-div-of-btns">

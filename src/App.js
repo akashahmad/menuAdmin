@@ -11,11 +11,13 @@ import SideDish from './container/sideDish/index';
 import Profile from './container/profile/index';
 import Settings from './container/settings/index';
 import SalesReport from './container/saleReport/index';
+import Userpopup from './container/addnewuserpopup/index';
 import {Switch, Route} from 'react-router-dom'
 
 export default() => {
     return (
         <Switch>
+           <Route path={"/popup"} exact component={Userpopup}/>
            <Route path={"/orders"} exact component={Orders}/>
             <Route path={"/menu"} component={Menu}/>
             <Route path={"/add-new-dish"} component={AddNewDish}/>

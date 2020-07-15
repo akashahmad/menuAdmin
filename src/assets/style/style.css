@@ -72,6 +72,9 @@ body{
 .padding-10{
     padding: 10px;
 }
+.scroll-y{
+    overflow-y: scroll;
+}
 .t-align-c{
     text-align: center;
 }
