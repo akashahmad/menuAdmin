@@ -34,7 +34,7 @@ export default (props) => {
             <div className="setting-container-head margin-top-bottom-30">
                 <div
                     className="p-t-10 addNewDish-container-left heading-clr f-fm-OpenSans f-s-24 f-w-600 f-w-str-normal f-sty-normal letter-spc-normal">
-                    Side Dishes
+                    Users
                 </div>
                 <div className="d-flex">
                     <button
@@ -45,7 +45,7 @@ export default (props) => {
                 </div>
             </div>
             {/*wide cards in settings*/}
-            <div className="container side-dish-cards">
+            <div className="container users-setting-cards">
                 <div className="side-dish-block-width categories-wide-block bg-clr-white">
                     <div className="setting-wide-card-main-div">
                         <div className="setting-wide-card-inner-div d-flex j-c-space-between">

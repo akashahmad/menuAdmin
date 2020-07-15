@@ -83,39 +83,6 @@ export default (props) => {
                         </button>
                     </div>
                 </div>
-                {/*row 2*/}
-                <div className=" container row-with-white-bg m-b-10">
-                    <div className="d-flex del-dish-main-div-of-checkbox ">
-                        <div className=" margin-left-10">
-                            {/*<input type="checkbox" className="myinput large cursor-pointer"/>*/}
-                            <div className="cursor-pointer">
-                                <div style={{position: 'absolute'}}>
-                                    <input type="checkbox" className="custom-checkbox-input"
-                                           onChange={() => {
-                                               checkBox ? setCheckBox(false) : setCheckBox(true)
-                                           }}
-                                    />
-                                </div>
-                                {!checkBox ?
-                                    <div className="checkbox-unchecked"/> :
-                                    <div className="checked-box">
-                                        <img className="checked-box-tick" src={Tick} alt=""/>
-                                    </div>}
-                            </div>
-                        </div>
-
-                        <label
-                            className="del-dish-check-box-label f-fm-OpenSans f-s-14 heading-clr f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
-                            Dish
-                        </label>
-                    </div>
-                    <div>
-                        <button
-                            className="p-0 margin-0 medium-btn common-button cursor-pointer f-fm-OpenSans f-s-16 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
-                            Delete
-                        </button>
-                    </div>
-                </div>
                 {/*del dish footer btn section*/}
                 <div className="d-flex ">
                     <button

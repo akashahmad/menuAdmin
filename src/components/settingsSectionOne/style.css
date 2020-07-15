@@ -19,3 +19,8 @@
 .setting-label-width{
     width: 130px;
 }
+.users-setting-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 40px 40px;
+}
