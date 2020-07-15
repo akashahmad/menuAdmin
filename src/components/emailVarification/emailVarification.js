@@ -4,12 +4,12 @@ import CancelImage from '../../assets/images/cancel.png'
 
 export default (props) => {
     let{
-        setAddNewCategoryPopUp
+        setVarificationPopUp,setVarificationCopyPopUp
     }=props;
     return (
         <div className="container-fluid">
             <div className="container main-div-of-add-new-menu scroll-y">
-                {/* header for conformation*/}
+                 header for conformation
                 <div className="inside-main-div">
                     <div className="header-of-confirmation">
                         <img src={TickImage} alt="tick-img" />
@@ -17,7 +17,7 @@ export default (props) => {
                     </div>
                     {/* cancel img */}
                     <div className="cross-img-div">
-                        <img src={CancelImage} alt="cancel-img" onClick={()=>setAddNewCategoryPopUp(false)} />
+                        <img src={CancelImage} alt="cancel-img" onClick={()=>setVarificationCopyPopUp(false)} />
                     </div>
                 </div>
                 {/* popup for add new menu */}
@@ -26,7 +26,7 @@ export default (props) => {
                         <div className="inside-div-of-popup">
                             {/* cancel-img */}
                             <div className="cancel-img-div-inside-popup">
-                                <img src={CancelImage} alt="cancel-img" onClick={()=>setAddNewCategoryPopUp(false)}/>
+                                <img src={CancelImage} alt="cancel-img" onClick={()=>setVarificationCopyPopUp(false)}/>
                             </div>
                             <div className="heading-paragraph-input-label-div">
                                 {/* headoing */}
@@ -93,7 +93,12 @@ export default (props) => {
                                 {/* buttons */}
                                 <div className="main-div-of-buttons">
                                     <div className="inside-div-of-btns btns-center">
-                                        <span className="common-btn-of-popup color-red">Submit</span>
+                                        <span className="common-btn-of-popup color-red"
+                                        onClick={()=>{
+                                            setVarificationPopUp(false)
+                                            setVarificationCopyPopUp(true)}
+                                        }
+                                        >Submit</span>
                                     </div>
                                 </div>
                             </div>

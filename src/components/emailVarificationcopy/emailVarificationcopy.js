@@ -4,29 +4,29 @@ import CancelImage from '../../assets/images/cancel.png'
 
 export default (props) => {
     let {
-        setAddNewCategoryPopUp
+        setVarificationCopyPopUp
     } = props;
     return (
         <div className="container-fluid">
             <div className="container main-div-of-add-new-menu">
                 {/* header for conformation*/}
-                <div className="inside-main-div">
-                    <div className="header-of-confirmation">
-                        <img src={TickImage} alt="tick-img"/>
-                        <p>New menu has been created successfully.</p>
-                    </div>
-                    {/* cancel img */}
-                    <div className="cross-img-div">
-                        <img src={CancelImage} alt="cancel-img" onClick={() => setAddNewCategoryPopUp(false)}/>
-                    </div>
-                </div>
+                {/*<div className="inside-main-div">*/}
+                    {/*<div className="header-of-confirmation">*/}
+                        {/*<img src={TickImage} alt="tick-img"/>*/}
+                        {/*<p>New menu has been created successfully.</p>*/}
+                    {/*</div>*/}
+                    {/*/!* cancel img *!/*/}
+                    {/*<div className="cross-img-div">*/}
+                        {/*<img src={CancelImage} alt="cancel-img" onClick={() => setVarificationCopyPopUp(false)}/>*/}
+                    {/*</div>*/}
+                {/*</div>*/}
                 {/* popup for add new menu */}
                 <form>
                     <div className="main-div-of-popup scroll-y">
                         <div className="inside-div-of-popup">
                             {/* cancel-img */}
                             <div className="cancel-img-div-inside-popup">
-                                <img src={CancelImage} alt="cancel-img" onClick={() => setAddNewCategoryPopUp(false)}/>
+                                <img className="cursor-pointer" src={CancelImage} alt="cancel-img" onClick={() => setVarificationCopyPopUp(false)}/>
                             </div>
                             <div className="heading-paragraph-input-label-div">
                                 {/* headoing */}

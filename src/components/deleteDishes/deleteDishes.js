@@ -3,10 +3,11 @@ import './style.css'
 //import components
 
 //import images
-
+import Tick from '../../assets/images/whit-tick.png'
 export default (props) => {
     let {} = props;
-
+    const [checkBox, setCheckBox] = useState(false)
+    console.log("checkBox", checkBox);
     return (
         <div className="container-fluid addNewDish-section-one">
             <div className="addNewDish-container-head margin-top-bottom-30">
@@ -55,7 +56,20 @@ export default (props) => {
                 <div className=" container row-with-white-bg m-b-10">
                     <div className="d-flex del-dish-main-div-of-checkbox ">
                         <div className="common-check-box margin-left-10">
-                            <input type="checkbox" className="myinput large cursor-pointer"/>
+                            <div className="cursor-pointer">
+                                <div style={{position: 'absolute'}}>
+                                    <input type="checkbox" className="custom-checkbox-input"
+                                           onChange={() => {
+                                               checkBox ? setCheckBox(false) : setCheckBox(true)
+                                           }}
+                                    /></div>
+
+                                {!checkBox ?
+                                    <div className="checkbox-unchecked"/> :
+                                    <div className="checked-box">
+                                        <img className="checked-box-tick" src={Tick} alt=""/>
+                                    </div>}
+                            </div>
                         </div>
                         <label
                             className="del-dish-check-box-label f-fm-OpenSans f-s-14 heading-clr f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
@@ -72,9 +86,24 @@ export default (props) => {
                 {/*row 2*/}
                 <div className=" container row-with-white-bg m-b-10">
                     <div className="d-flex del-dish-main-div-of-checkbox ">
-                        <div className="common-check-box margin-left-10">
-                            <input type="checkbox" className="myinput large cursor-pointer"/>
+                        <div className=" margin-left-10">
+                            {/*<input type="checkbox" className="myinput large cursor-pointer"/>*/}
+                            <div className="cursor-pointer">
+                                <div style={{position: 'absolute'}}>
+                                    <input type="checkbox" className="custom-checkbox-input"
+                                           onChange={() => {
+                                               checkBox ? setCheckBox(false) : setCheckBox(true)
+                                           }}
+                                    />
+                                </div>
+                                {!checkBox ?
+                                    <div className="checkbox-unchecked"/> :
+                                    <div className="checked-box">
+                                        <img className="checked-box-tick" src={Tick} alt=""/>
+                                    </div>}
+                            </div>
                         </div>
+
                         <label
                             className="del-dish-check-box-label f-fm-OpenSans f-s-14 heading-clr f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
                             Dish

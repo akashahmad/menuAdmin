@@ -4,7 +4,7 @@ import CancelImage from '../../assets/images/cancel.png'
 
 export default (props) => {
     let {
-        setAddNewUserPopUp
+        setAddNewUserPopUp, setVarificationPopUp
     } = props;
     return (
         <div className="container-fluid">
@@ -17,7 +17,9 @@ export default (props) => {
                     </div>
                     {/* cancel img */}
                     <div className="cross-img-div">
-                        <img src={CancelImage} alt="cancel-img" onClick={() => {setAddNewUserPopUp(false)}}/>
+                        <img src={CancelImage} alt="cancel-img" onClick={() => {
+                            setAddNewUserPopUp(false)
+                        }}/>
                     </div>
                 </div>
                 {/* popup for add new menu */}
@@ -26,7 +28,9 @@ export default (props) => {
                         <div className="inside-div-of-popup">
                             {/* cancel-img */}
                             <div className="cancel-img-div-inside-popup cursor-pointer">
-                                <img src={CancelImage} alt="cancel-img " onClick={() => {setAddNewUserPopUp(false)}}/>
+                                <img src={CancelImage} alt="cancel-img " onClick={() => {
+                                    setAddNewUserPopUp(false)
+                                }}/>
                             </div>
                             <div className="heading-paragraph-input-label-div">
                                 {/* headoing */}
@@ -35,7 +39,8 @@ export default (props) => {
                                 </div>
                                 {/* paragraph */}
                                 <div className="paragprah">
-                                    <p className="margin-0 f-w-nomal f-w-str-normal f-sty-normal letter-spc-normal line-h-normal">You can add multiple users by clicking “Save & Add More” button.</p>
+                                    <p className="margin-0 f-w-nomal f-w-str-normal f-sty-normal letter-spc-normal line-h-normal">
+                                        You can add multiple users by clicking “Save & Add More” button.</p>
                                 </div>
                                 {/* label and input */}
                                 {/* inputs and label css inputs are defined in common css */}
@@ -46,7 +51,8 @@ export default (props) => {
                                             <label>Email</label>
                                         </div>
                                         <div className="w-100 margin-top-10">
-                                            <input className=" input-fields bg-clr-white" type="email" placeholder="johndoe@gmail.com"/>
+                                            <input className=" input-fields bg-clr-white" type="email"
+                                                   placeholder="johndoe@gmail.com"/>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +144,12 @@ export default (props) => {
                                 {/* buttons */}
                                 <div className="w-100 main-div-of-buttons">
                                     <div className="inside-div-of-btns btns-center">
-                                        <span className="common-btn-of-popup color-red">Save & Add More</span>
+                                        <span className="common-btn-of-popup color-red"
+                                              onClick={() => {
+                                                  setVarificationPopUp(true)
+                                                  setAddNewUserPopUp(false)
+                                              }}
+                                        >Save & Add More</span>
                                         <span className="common-btn-of-popup color-grey">Add Category to</span>
                                     </div>
                                 </div>
