@@ -25,3 +25,9 @@
 /*.placeholder-color{*/
     /*color: #767573;*/
 /*}*/
+input{
+    outline: #f14536;
+}
+button{
+    outline: #f14536;
+}

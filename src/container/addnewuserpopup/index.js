@@ -1,5 +1,5 @@
 import React from 'react'
-import Dashboard from '../../components/emailVarification/emailVarification'
+import Dashboard from '../../components/menuViewDishPopUp/menuViewDishPopUp'
 
 export default () => {
     return (

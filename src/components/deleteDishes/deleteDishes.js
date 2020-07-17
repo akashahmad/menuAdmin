@@ -56,7 +56,7 @@ export default (props) => {
                 <div className=" container row-with-white-bg m-b-10">
                     <div className="d-flex del-dish-main-div-of-checkbox ">
                         <div className="common-check-box margin-left-10">
-                            <div className="cursor-pointer">
+                            <div className="">
                                 <div style={{position: 'absolute'}}>
                                     <input type="checkbox" className="custom-checkbox-input"
                                            onChange={() => {
