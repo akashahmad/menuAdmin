@@ -5,7 +5,7 @@
 .menu-container-main-menu .categories-block{
     margin: 20px 10px;
     cursor: pointer;
-    width: auto;
+    width: 90%;
     height: 50px;
     flex: 1 1;
     display: flex;

@@ -4,11 +4,13 @@ import './style.css'
 
 //import images
 import OrangeCrossImage from '../../assets/images/orange-cross-image.png'
+import Tick from '../../assets/images/whit-tick.png'
 
 export default (props) => {
     let {} = props;
     // const [addVariation, setAddVariation] = useState(false);
     // const [addSideDish, setAddSideDish] = useState(false);
+    const [checkBox, setCheckBox] = useState(false);
     return (
         <div className="container-fluid addNewDish-container-fluid">
             <div className="container addNewDish-container">
@@ -128,21 +130,47 @@ export default (props) => {
                         </div>
                         {/*check-boxes*/}
                         <div className=" addNewDish-toggle-inner-div margin-top-20">
-                            <div className=" d-flex checkbox-main-div">
-                                <div className="common-check-box">
-                                    <input type="checkbox" className="myinput large cursor-pointer"/>
+                            <div className="d-flex del-dish-main-div-of-checkbox ">
+                                <div className="common-check-box margin-left-10">
+                                    <div className="">
+                                        <div style={{position: 'absolute'}}>
+                                            <input type="checkbox" className="custom-checkbox-input"
+                                                   onChange={() => {
+                                                       checkBox ? setCheckBox(false) : setCheckBox(true)
+                                                   }}
+                                            /></div>
+
+                                        {!checkBox ?
+                                            <div className="checkbox-unchecked"/> :
+                                            <div className="checked-box">
+                                                <img className="checked-box-tick" src={Tick} alt=""/>
+                                            </div>}
+                                    </div>
                                 </div>
                                 <label
-                                    className=" checkbox-label-padding f-fm-OpenSans f-s-14 heading-clr f-w-nomal f-sty-normal f-sty-normal line-h-normal letter-spc-normal">
+                                    className="del-dish-check-box-label f-fm-OpenSans f-s-14 heading-clr f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
                                     Free
                                 </label>
                             </div>
-                            <div className=" d-flex check-box-main-div">
-                                <div className="common-check-box">
-                                    <input type="checkbox" className="myinput large cursor-pointer"/>
+                            <div className="d-flex del-dish-main-div-of-checkbox ">
+                                <div className="common-check-box margin-left-10">
+                                    <div className="">
+                                        <div style={{position: 'absolute'}}>
+                                            <input type="checkbox" className="custom-checkbox-input"
+                                                   onChange={() => {
+                                                       checkBox ? setCheckBox(false) : setCheckBox(true)
+                                                   }}
+                                            /></div>
+
+                                        {!checkBox ?
+                                            <div className="checkbox-unchecked"/> :
+                                            <div className="checked-box">
+                                                <img className="checked-box-tick" src={Tick} alt=""/>
+                                            </div>}
+                                    </div>
                                 </div>
                                 <label
-                                    className="checkbox-label-padding f-fm-OpenSans f-s-14 heading-clr f-w-nomal f-sty-normal f-sty-normal line-h-normal letter-spc-normal">
+                                    className="del-dish-check-box-label f-fm-OpenSans f-s-14 heading-clr f-w-nomal f-w-str-normal f-sty-normal line-h-normal letter-spc-normal">
                                     Paid
                                 </label>
                             </div>

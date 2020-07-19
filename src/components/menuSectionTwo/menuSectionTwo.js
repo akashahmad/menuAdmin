@@ -8,21 +8,21 @@ export default () => {
             <div className="menu-container-main-menu">
                 {/*all categories*/}
                 <div className="All-categories-div">
-                    <div className="bg-clr-Orange categories-block ">
+                    <button className="bg-clr-Orange categories-block ">
                         <div>All</div>
-                    </div>
-                    <div className="categories-block f-s-16 bg-clr-white">
+                    </button>
+                    <button className="categories-block f-s-16 bg-clr-white">
                         <div>Category 1</div>
-                    </div>
-                    <div className="categories-block f-s-16 bg-clr-white">
+                    </button>
+                    <button className="categories-block f-s-16 bg-clr-white">
                         <div>Category 2</div>
-                    </div>
-                    <div className="categories-block f-s-16 bg-clr-white">
+                    </button>
+                    <button className="categories-block f-s-16 bg-clr-white">
                         <div>Category 3</div>
-                    </div>
-                    <div className="categories-block f-s-16 bg-clr-white">
+                    </button>
+                    <button className="categories-block f-s-16 bg-clr-white">
                         <div>Category 4</div>
-                    </div>
+                    </button>
                 </div>
                 {/*cards*/}
                 <div className="categories-div-two">

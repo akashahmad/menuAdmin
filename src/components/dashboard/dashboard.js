@@ -92,7 +92,7 @@ export default () => {
                             <div className="img-name">
                                 <li><span>$ 100.00</span></li>
                             </div>
-                            <div className="img-name">
+                            <div className="img-name cursor-pointer">
                                 <li><span className="button-generate">Generate Bill</span></li>
                             </div>
                         </ul>
@@ -120,7 +120,7 @@ export default () => {
                             <div className="img-name">
                                 <li><span>$ 100.00</span></li>
                             </div>
-                            <div className="img-name">
+                            <div className="img-name cursor-pointer">
                                 <li><span className="button-generate">Generate Bill</span></li>
                             </div>
                         </ul>

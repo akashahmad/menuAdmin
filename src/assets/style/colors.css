@@ -25,9 +25,20 @@
 /*.placeholder-color{*/
     /*color: #767573;*/
 /*}*/
-input{
+input,button{
     outline: #f14536;
 }
-button{
-    outline: #f14536;
+button {
+    border-style: none;
+    box-shadow: 0 2px 8px 0 rgba(241, 69, 54, 0.59);
+}
+button:focus {
+    border-style: none;
+    box-shadow: 0 2px 8px 0 rgba(241, 69, 54, 0.59);
+}
+
+button:hover{
+    background-color: #F12B0D !important;
+    box-shadow: 0 2px 8px 0 rgba(241, 69, 54, 0.59);
+    color: white;
 }
