@@ -30,7 +30,7 @@ input,button{
 }
 button {
     border-style: none;
-    box-shadow: 0 2px 8px 0 rgba(241, 69, 54, 0.59);
+    /*box-shadow: 0 2px 8px 0 rgba(241, 69, 54, 0.59);*/
 }
 button:focus {
     border-style: none;
