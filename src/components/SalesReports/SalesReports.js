@@ -72,14 +72,14 @@ export default (props) => {
                     <div
                         className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal text-clr-light-gray">
                         <p className="paragraph-tab">
-                            <img className="table-head-down-arrow" src={DownwardArrow} alt="downward-arrow"/>
+                            <img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow"/>
                             <span className="margin-left-10">  Table #</span>
                         </p>
                     </div>
                     <div
                         className="w-33 d-flex f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal text-clr-light-gray">
                         <p className="paragraph-tab">
-                            <img className="table-head-down-arrow" src={DownwardArrow} alt="downward-arrow"/>
+                            <img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow"/>
                             <span className="margin-left-10">Today’s Sales</span>
                         </p>
 
@@ -87,7 +87,7 @@ export default (props) => {
                     <div
                         className="w-33  d-flex f-fm-OpenSans f-s-14 f-w-600 f-w-str-normal f-sty-normal line-h-normal letter-spc-normal text-clr-light-gray">
                         <p className="paragraph-tab">
-                            <img className="table-head-down-arrow" src={DownwardArrow} alt="downward-arrow"/>
+                            <img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow"/>
                             <span className="margin-left-10"> Total Sales</span>
                         </p>
                     </div>

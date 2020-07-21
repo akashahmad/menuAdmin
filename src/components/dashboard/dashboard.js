@@ -40,31 +40,31 @@ export default () => {
                         {/*headings*/}
                         <ul>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow" /></li>
                                 <li><span>Table #</span></li>
                             </div>
                             <div className="img-ordered-heading">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow" /></li>
                                 <li><span>Ordered Menu</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow" /></li>
                                 <li><span>Date</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow" /></li>
                                 <li><span>Time</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow" /></li>
                                 <li><span>Order Status</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow" /></li>
                                 <li><span>Bill Amount</span></li>
                             </div>
                             <div className="img-name">
-                                <li><img src={DownwardArrow} alt="downward-arrow" /></li>
+                                <li><img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow" /></li>
                                 <li><span>Action</span></li>
                             </div>
                         </ul>

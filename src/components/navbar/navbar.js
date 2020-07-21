@@ -1,7 +1,7 @@
 import React from 'react'
 import {withRouter} from 'react-router-dom';
 import './style.css'
-import Image from '../../assets/images/dashboard.png'
+import Image from '../../assets/images/4-copy.png'
 import ImageWhite from '../../assets/images/w-dashboard.png'
 import OrderImage from '../../assets/images/54-copy.png'
 import OrderImageWhite from '../../assets/images/w-54-copy.png'

@@ -10,7 +10,7 @@ export default () => {
             <div className="main-div-of-header">
                 {/* logo */}
                 <div className="logo">
-                    <img src={Logo} alt="logo"/>
+                    <img className="logo-adjustment" src={Logo} alt="logo"/>
                 </div>
                 {/* text , user-img and icon */}
                 <div className="text-and-icon fnt-family-openSans">
@@ -21,7 +21,7 @@ export default () => {
                         <img src={Icon} alt="icon"/>
                     </div>
                     <div className="downward-arrow">
-                        <img src={DownwardArrow} alt="downward-arrow"/>
+                        <img className="downward-arrow-adjustment" src={DownwardArrow} alt="downward-arrow"/>
                     </div>
                 </div>
             </div>
